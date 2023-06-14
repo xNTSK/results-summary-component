@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+#duze {
+  height: 49.875vh;
+  background-color: white;
+  border-radius: 20px;
+}
+#kolko {
+  background-image: linear-gradient(
+    0deg,
+    hsl(241deg 72% 46%) 0%,
+    hsl(243deg 72% 46%) 11%,
+    hsl(244deg 72% 46%) 22%,
+    hsl(246deg 72% 46%) 33%,
+    hsl(248deg 72% 46%) 44%,
+    hsl(249deg 72% 46%) 56%,
+    hsl(251deg 72% 46%) 67%,
+    hsl(253deg 72% 46%) 78%,
+    hsl(254deg 72% 46%) 89%,
+    hsl(256deg 72% 46%) 100%
+  );
+  margin: 0 auto;
+  text-align: center;
+  width: 10rem;
+  height: 10rem;
+  background-color: purple;
+  border-radius: 50%;
+}
+#male1 {
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    hsl(241deg 81% 54%) 0%,
+    hsl(242deg 83% 55%) 11%,
+    hsl(243deg 85% 57%) 22%,
+    hsl(245deg 88% 58%) 33%,
+    hsl(246deg 89% 60%) 44%,
+    hsl(247deg 92% 61%) 56%,
+    hsl(248deg 94% 63%) 67%,
+    hsl(250deg 96% 64%) 78%,
+    hsl(251deg 98% 65%) 89%,
+    hsl(252deg 100% 67%) 100%
+  );
+  text-align: center;
+  background-color: transparent;
+}
+#male2 {
+  border-radius: 20px;
+
+  background-color: white;
+}
+.paski {
+  line-height: 3rem;
+  font-weight: 700;
+  height: 3rem;
+  margin: 1rem auto;
+  width: 80%;
+  border-radius: 10px;
+}
+h3 {
+  position: relative;
+  top: 0.5rem;
+}
+h2 {
+  margin-top: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+}
+h4 {
+  text-align: center;
+  width: 14rem;
+  margin: 0 auto;
+  color: hsl(241, 100%, 89%);
+  font-weight: normal;
+}
+h5 {
+  color: hsl(241, 100%, 89%);
+}
+#male1 h3 {
+  color: hsl(241, 100%, 89%);
+}
+#male2 h3 {
+  margin-bottom: 2rem;
+  left: 10%;
+  color: hsl(224, 30%, 27%);
+}
+#pasek1 {
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.15);
+}
+#pasek2 {
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.15);
+}
+#pasek3 {
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.15);
+}
+#pasek4 {
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.15);
+}
+button {
+  font-size: 1rem;
+  margin-top: 2rem;
+  width: 80%;
+  left: 10%;
+  position: relative;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  height: 3rem;
+  border-radius: 50px;
+}
+button:hover {
+  background-image: linear-gradient(
+    0deg,
+    hsl(241deg 72% 46%) 0%,
+    hsl(243deg 72% 46%) 11%,
+    hsl(244deg 72% 46%) 22%,
+    hsl(246deg 72% 46%) 33%,
+    hsl(248deg 72% 46%) 44%,
+    hsl(249deg 72% 46%) 56%,
+    hsl(251deg 72% 46%) 67%,
+    hsl(253deg 72% 46%) 78%,
+    hsl(254deg 72% 46%) 89%,
+    hsl(256deg 72% 46%) 100%
+  );
+}
+.paseklewo {
+  padding-left: 6%;
+  text-align: left;
+  clear: both;
+  float: left;
+  width: 42%;
+}
+.pasekprawo {
+  padding-right: 6%;
+  text-align: right;
+  float: left;
+  width: 42%;
+}
+.paseklewo img {
+  position: relative;
+  top: 0.25rem;
+}
+#kolko h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#kolko h5 {
+  margin-top: 2rem;
+}
+.liczba1 {
+  color: hsl(224, 30%, 27%);
+}
+.liczba2 {
+  color: gray;
+}
+span {
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+  }
+  #duze {
+    width: 100vw;
+  }
+  #male1 {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+  }
+  #male2 {
+    width: 100%;
+  }
+  #male1 h3 {
+    padding-top: 1rem;
+  }
+  #male1 h4 {
+    padding-top: 1rem;
+    width: 80vw;
+  }
+  #kolko {
+    margin-top: 2rem;
+  }
+  #male2 {
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #duze {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 47rem;
+    box-shadow: 1rem 1rem 50px 5px hsl(221, 100%, 96%);
+  }
+  #male1 {
+    border-radius: 20px;
+    clear: both;
+    float: left;
+    width: 50%;
+  }
+  #male2 {
+    width: 50%;
+    float: left;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #duze {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 47rem;
+    box-shadow: 1rem 1rem 50px 5px hsl(221, 100%, 96%);
+  }
+  #male1 {
+    border-radius: 20px;
+    clear: both;
+    float: left;
+    width: 50%;
+  }
+  #male2 {
+    width: 50%;
+    float: left;
+  }
+}
