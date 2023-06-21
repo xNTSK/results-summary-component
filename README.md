@@ -1,4 +1,4 @@
-# Link to website preview: https://xntsk.github.io/results-summary-component-main/
+# Link to website preview: https://xntsk.github.io/results-summary-component/
 
 # Frontend Mentor - Results summary component
 
